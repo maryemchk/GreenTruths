@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Truths.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+</head>
+<body>
+    <header>
+
+        <nav class="nav-bar">
+            <div class="logo">
+                <img class="star" src="./img/star.png" alt="">
+                <div>Green Truths.</div>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#">about</a></li>
+                <li><a href="#quizs">quizs</a></li>
+                <li><a href="#news">news</a></li>
+                <li><a href="#footer">contact</a></li>
+            </ul>
+        </nav>
+    </header>  
+    
+    <section class="section-one">
+        <div class="container">
+            <div class="left-side">
+                <div class="title">
+                    <h1>Your Gateway to  
+                         <img src="./img/star.png" alt="" class="star">
+                          <br>Environmental<br> Awareness</h1>
+                </div>
+
+                <p class="p">
+                    Welcome to Green Truths – your guide to accurate climate knowledge.
+                     We debunk myths, promote understanding, and empower action for a sustainable future.
+                     Join us in nurturing a greener world!
+                </p>
+
+                <button> <a href="#news">know more</a></button>
+
+            </div>
+            <div class="right-side pyramid">
+                <img src="./img/earth.png" alt="" class="gold glow image">
+            </div>
+        </div>
+    </section>
+
+    <section id="section2">
+        <div id="quizs" class="container">
+            <div  class="left-side hand">
+                <img class="gold image" src="./img/jeans.png" alt="">
+            </div>
+            <div class="right-side">
+                <img src="./img/star.png" class="star star-s2" alt="">
+
+                <div id="quizQuestion" class="title">
+                    <h1>On average, how much water is estimated to be used in <br>the entire life cycle of producing one pair of jeans?</h1>
+                    <h2> from growing the cotton to the manufacturing process?  </h2>
+                    <img src="./img/star.png" class="star " alt="">
+
+                </div>
+
+                <p id="quizExplanation" class="p">
+                    This question aims to highlight the significant water consumption associated with the production of 
+                    clothing items like jeans, particularly considering factors such as cotton cultivation and manufacturing 
+                    processes. 
+                </p>
+
+                <div class="line"></div>
+
+              <br>
+                <button onclick="changeQuiz('500 liters')">500 liters</button>
+                <button onclick="changeQuiz('1,000 liters')">1,000 liters</button>
+                <button onclick="changeQuiz('2,500 liters')">2,500 liters</button>
+
+
+            </div>
+        </div>
+    </section>
+    <script>
+        function changeQuiz(answer) {
+          // Change the quiz question and explanation dynamically
+          document.getElementById('quizQuestion').innerHTML = "<h1>Are renewable energies, such as solar and wind energy, entirely free of environmental impact?</h1>";
+          document.getElementById('quizExplanation').innerHTML = "Renewable energies, including solar and wind energy, are generally considered more environmentally friendly compared to conventional fossil fuels";
+        }
+      </script>
+    <section>
+        <div class="container">
+            <div class="left-side">
+                <div class="title">Knowledge is power, and we're here to empower you!</h1>
+                    <h2>
+                        <h1>Subscribe to our newsletter for a dose of knowledge delivered straight to your inbox  </h2>
+                </div>
+                <div class="type g-type">
+                    <p>Enter your e-mail</p>
+                    <input class="rounded-input" type="text" autocomplete="off" />
+
+                </div>
+
+                <div class="line line-blue"></div>
+
+                <div class="type s-type">
+                    <button type="submit">send</button>
+
+                </div>
+                <div class="line"></div>
+            </div>
+            <div class="right-side rotation">
+                <img class="gold3 image" src="./img/lettre.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="container">
+            <div class="left-side">
+                <img src="./img/star.png" class="star-s4 star" alt="">
+                <div class="title">
+                    <h1>Sources</h1>
+                    <h2>Trusted ones !</h2>
+                </div>
+            </div>
+            <div class="right-side">
+                <p>
+                    
+                When seeking information on climate change, it's essential to rely on reputable sources that provide accurate and scientifically supported data.
+                    Here are some trusted sources for information on climate change:
+                </p>
+
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card card-1">
+                <div class="rotation">
+                    <a href="https://reseauactionclimat.org/thematiques/energie/?fbclid=IwAR1gZWlTST5aMl2G_cVpCcBp-48v01jiODWhPRXtVaHdJh4Fogul1Jjn9ts"><img src=".\img\p1.png" alt="" class="img-card image"></a>
+                </div>
+                <div class="color">Energy</div>
+                <span> Challenges & Solutions </span>
+            </div>
+            <div class="card card-2">
+                <div class="rotation">
+                    <a href="https://docs.google.com/document/d/19C4W_WuDMzlkWi8RtXzCvbD_apXZPo61ko4ePNBSMFU/edit?fbclid=IwAR1XYE5P6h7RbS1RvuUEA54MGL-Gb-w8-xmd8rYaKcdMmGkBqoecfTWMZY4#heading=h.8i5f32ewztl9"><img src="./img/p2.png" alt="" class="img-card image"></a>
+                </div>
+                <div class="color">Public Action for Climate</div>
+                <span> Essential </span>
+            </div>
+            <div class="card card-3">
+                <div class="rotation">
+                   <a href="https://blog.ucsusa.org/delta-merner/climate-litigation-reflection-and-anticipation-for-2024/?fbclid=IwAR0ScU6Xm-HiCDtxKCaQzcmCWLCwlDs0OlsJRyvbN_4Am531eZ5xAGDtR1M"> <img src="./img/p3.png" alt="" class="img-card image" ></a>
+                    
+                </div>
+                <div class="color">2024</div>
+                <span> Climate Litigation Unveiled </span>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="footer"  class="footer-section">
+        <div class="container" style="padding-bottom:5rem;">
+            <img src="./img/star.png" alt="" class="star star-s5">
+            <div class="left-side">
+                <div class="title">
+                    <h1>stay up-to date</h1>
+                    <h2>With everything about climate!</h2>
+                </div>
+            </div>
+            <div class="right-side">
+                <p class="txt">
+                    Embrace a sustainable<span> tomorrow</span>
+                    , protect our climate <span> today </span>
+                    for a thriving and resilient world.
+                </p>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="container sides">
+            <div class="left-side">
+                <div class="logo">
+                    <img src="./img/star.png" class="star" alt="">
+                    <div>Nouba2023 .</div>
+                </div>
+
+                <p class="p">
+                    We are Software Engineers, Isimm.<br>
+                    our motto is -investing in knowledge <br>
+                   and in the future of our country.
+                </p>
+            </div>
+            <div class="right-side">
+                <ul class="menu">
+                    <li>Climate Action Network</li>
+                    <li><a href="#https://reseauactionclimat.org/urgence-climatique">Climate emergency</a></li>
+                    <li><a href="#https://reseauactionclimat.org/6e-rapport-du-giec-quelles-solutions-face-au-changement-climatique/">Solutions</a></li>
+                    <li>ADEME</li>
+                    <li><a href="#https://www.ademe.fr/">ADEME</a></li>
+                    <li><a href="#https://data.ademe.fr/">DATA 1</a></li>
+                    <li><a href="#https://data-transitions2050.ademe.fr/">DATA 2</a></li>
+                    <li><a href="#https://nosgestesclimat.fr/">Carbon footprint calculator</a></li>
+                    <li></li>
+                    <li>GIEC></li>
+                    <li><a href="#https://www.ipcc.ch/">GIEC</a></li>
+                    <li><a href="#https://huggingface.co/spaces/Ekimetrics/climate-question-a">An AI that knows the contents of the latest GIEC report</a></li>
+                    <li><a href="#https://www.hautconseilclimat.fr/">High Council for the Climate</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+    <button class="chatbot-toggler">
+        <span class="material-symbols-rounded">mode_comment</span>
+        <span class="material-symbols-outlined">close</span>
+      </button>
+      <div class="chatbot">
+        <header>
+          <h2>TreeTa</h2>
+          <span class="close-btn material-symbols-outlined">close</span>
+        </header>
+        <ul class="chatbox">
+          <li class="chat incoming">
+            <span class="material-symbols-outlined">smart_toy</span>
+            <p>Hey , Welcome To GreenTruths.</p><br><br>
+       
+          </li>
+          <br>
+          <li class="chat incoming">
+            <span class="material-symbols-outlined">smart_toy</span>
+            
+            <p>I'm your friendly virtual assistant. Before we start, I'd like to know if you have any ideas about climate change. </p>
+          </li>
+          <li class="chat incoming">
+            <span class="material-symbols-outlined">smart_toy</span>
+            
+            <p>Choose one of these options : 
+              yes, i have
+              no,i don't  have </p>
+          </li>
+        </ul>
+        <div class="chat-input">
+          <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+          <span id="send-btn" class="material-symbols-rounded">send</span>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="left-side">
+                <p> &copy; Nouba2023. All rights reserved</p>
+            </div>
+            <div class="right-side center">
+                <p>Term and Conditions</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js" ></script>
+<script src="./script.js"></script>
+</html>
